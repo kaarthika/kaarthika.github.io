@@ -12,6 +12,7 @@ header {
 }
 #page-container {
     max-width: 800px;
+    width: auto;
     margin: auto;
     background: #FFF;
     min-height: 100vh;
