@@ -1,2 +1,1 @@
-# kaarthika.github.io
-kaarthika.com
+[kaarthika.com](http://www.kaarthika.com)
