@@ -7,7 +7,19 @@
   <link rel="stylesheet" href="landingpage.css">
 
 </head>
+<script>
+// When the user clicks on <div>, open the popup
+function closePopup() {
+  var popup = document.getElementById("modal").style.visibility = "hidden";
+}
+</script>
 <div class = "container">
-    <a class="tech" href="tech.html"> <img src="img/terminal.png" alt=""/> </a>
+    <div class="modal" id="modal">
+    <p class="message">This is my visual portfolio! Click the items on my desk to see what I spend my time working on. :)</p>
+  <div class="options">
+    <button class="btn" onclick="closePopup()">Let's go!</button>
+  </div>
+</div>
+    <a class="tech" href="tech.html"> <img src="img/terminal.png" alt="image of terminal" title="tech work"/> </a>
 </div>
 </html>
