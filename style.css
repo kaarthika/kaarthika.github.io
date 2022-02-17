@@ -22,6 +22,11 @@ red {
 	z-index: 999;
 }
 
+red:hover {
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
+}
+
 green {
   width: 100px;
   height: 100px;
