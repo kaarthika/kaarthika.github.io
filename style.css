@@ -45,14 +45,19 @@ green {
 	z-index: 999;
 }
 
+img {
+max-width: 100%;
+height: auto;
+}
+
  blue {
   width: 100px;
   height: 100px;
   background-color: blue;
   position: relative;
-  animation: blueanimation 50s linear infinite;
-  top: 429px;
-	left: 62px;
+  animation: redanimation 50s linear infinite;
+  top: 400px;
+	left: 400px;
 	position: fixed;
 	z-index: 999;
 }
@@ -152,7 +157,7 @@ green {
 	}
 
 	50% {
-    transform: translate(-200%,-120%) rotateZ(-40deg);opacity: .5;
+    transform: translate(100vw,50vh) rotateZ(0deg);
 
 	}
 
@@ -167,7 +172,8 @@ green {
 	}
 
 	100% {
-    transform: translate(100vw,50vh) rotateZ(0deg);
+    transform: translate(-200%,-120%) rotateZ(-40deg);opacity: .5;
+
 
 	}
 }
