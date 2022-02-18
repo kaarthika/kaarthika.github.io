@@ -111,11 +111,6 @@ babewaves {
 	z-index: 999;
 }
 
-babewaves:hover {
-  box-shadow: inset 100px 0 0 0 #54b3d6;
-  color: white;
-}
-
 portraits {
   width: 100px;
   height: 100px;
@@ -125,11 +120,6 @@ portraits {
 	left: -10px;
 	position: fixed;
 	z-index: 999;
-}
-
-portraits:hover {
-  box-shadow: inset 100px 0 0 0 #54b3d6;
-  color: white;
 }
 
 showandtell {
@@ -177,10 +167,6 @@ lookforamerica {
 	z-index: 999;
 }
 
-lookforamerica:hover {
-  box-shadow: inset 100px 0 0 0 #54b3d6;
-  color: white;
-}
 
 letterbox {
   width: 100px;
@@ -193,10 +179,6 @@ letterbox {
 	z-index: 999;
 }
 
-letterbox:hover {
-  box-shadow: inset 100px 0 0 0 #54b3d6;
-  color: white;
-}
 
 goodreads {
   width: 100px;
@@ -271,19 +253,22 @@ goodreads {
 	}
 
 	62.5% {
-		transform: translate(20vw,100vh) rotateZ(20deg);
+		transform: translate(200%,100vh) rotateZ(20deg);
 	}
 	75% {
-    transform: translate(200%,100vh) rotateZ(20deg);
+    transform: translate(-200%,110vh) rotateZ(0deg);
+
 
 
 	}
 	87.5% {
-		transform: translate(50vw,-200%) scale(1.75) rotateZ(20deg);
+    transform: translate(20vw,100vh) rotateZ(20deg);
+
 	}
 
 	100% {
-		transform: translate(-200%,110vh) rotateZ(0deg);
+    transform: translate(50vw,-200%) scale(1.75) rotateZ(20deg);
+
 	}
 }
 
@@ -666,25 +651,28 @@ goodreads {
 	}
 
 	37.5% {
-		transform: translate(-200%,-120%) rotateZ(-40deg);
+    transform: translate(-200%,110vh) rotateZ(0deg);
+
 	}
 
 	50% {
-		transform: translate(100vw,50vh) rotateZ(0deg);
+    transform: translate(-200%,-120%) rotateZ(-40deg);
+
 	}
 
 	62.5% {
 		transform: translate(-200%,50vh) scale(1.75) rotateZ(-20deg);
 	}
 	75% {
-		transform: translate(200%,100vh) rotateZ(20deg);
+		transform: translate(100vw,50vh) rotateZ(0deg);
 	}
 	87.5% {
 		transform: translate(50vw,-200%) scale(1.75) rotateZ(20deg);
 	}
 
 	100% {
-		transform: translate(-200%,110vh) rotateZ(0deg);
+    transform: translate(200%,100vh) rotateZ(20deg);
+
 	}
 }
 
