@@ -100,18 +100,13 @@ nightnoises {
 	z-index: 999;
 }
 
-nightnoises:hover {
-  box-shadow: inset 100px 0 0 0 #54b3d6;
-  color: white;
-}
-
 babewaves {
   width: 100px;
   height: 100px;
   position: relative;
   animation: babewavesanimation  100s linear infinite;
   top: -100px;
-	left: 0;
+	left: 0px;
 	position: fixed;
 	z-index: 999;
 }
@@ -148,10 +143,6 @@ showandtell {
 	z-index: 999;
 }
 
-showandtell:hover {
-  box-shadow: inset 100px 0 0 0 #54b3d6;
-  color: white;
-}
 
 longdistance {
   width: 100px;
@@ -162,11 +153,6 @@ longdistance {
 	left: -50px;
 	position: fixed;
 	z-index: 999;
-}
-
-longdistance:hover {
-  box-shadow: inset 100px 0 0 0 #54b3d6;
-  color: white;
 }
 
 maplelovestory {
@@ -223,10 +209,6 @@ goodreads {
 	z-index: 999;
 }
 
-goodreads:hover {
-  box-shadow: inset 100px 0 0 0 #54b3d6;
-  color: white;
-}
 
 @keyframes archanimation {
   0% {
