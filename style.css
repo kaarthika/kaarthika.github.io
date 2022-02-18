@@ -10,62 +10,228 @@ section {
         margin-right: -50%;
         transform: translate(-50%, -50%) }
 
+img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        }
+
+
+
 help {
   position:absolute;
   bottom:10px;
   right:10px;
         }
 
-red {
+tape {
   width: 100px;
   height: 100px;
-  background-color: red;
   position: relative;
-  animation: redanimation 50s linear infinite;
-  top: 0;
+  animation: archanimation  100s linear infinite;
+  top: 0px;
+	left: 0px;
+	position: fixed;
+	z-index: 999;
+}
+
+
+
+white {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: archanimation  100s linear infinite;
+  top: 200px;
+	left: 200px;
+	position: fixed;
+	z-index: 999;
+}
+
+
+
+noise2 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: noiseanimation  100s linear infinite;
+  top: 435px;
+	left: 0px;
+	position: fixed;
+	z-index: 999;
+}
+
+
+
+noise1 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: noiseanimation  100s linear infinite;
+  top: 200px;
+	left: 15px;
+	position: fixed;
+	z-index: 999;
+}
+
+
+
+dj {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: djanimation  100s linear infinite;
+  top: 15px;
+	left: 200px;
+	position: fixed;
+	z-index: 999;
+}
+
+
+
+nightnoises {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: nightnoisesanimation  100s linear infinite;
+  top: -50px;
+	left: -50px;
+	position: fixed;
+	z-index: 999;
+}
+
+nightnoises:hover {
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
+}
+
+babewaves {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: babewavesanimation  100s linear infinite;
+  top: -100px;
 	left: 0;
 	position: fixed;
 	z-index: 999;
 }
 
-red:hover {
+babewaves:hover {
   box-shadow: inset 100px 0 0 0 #54b3d6;
   color: white;
 }
 
-green {
+portraits {
   width: 100px;
   height: 100px;
-  background-color: green;
   position: relative;
-  animation: greenanimation 50s linear infinite;
-  top: -46px;
-	left: -62px;
+  animation: portraitsanimation 120s linear infinite;
+  top: -1px;
+	left: -10px;
 	position: fixed;
 	z-index: 999;
 }
 
-img {
-max-width: 100%;
-height: auto;
+portraits:hover {
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
 }
 
- blue {
+showandtell {
   width: 100px;
   height: 100px;
-  background-color: blue;
   position: relative;
-  animation: redanimation 50s linear infinite;
-  top: 400px;
-	left: 400px;
+  animation: showandtellanimation  100s linear infinite;
+  top: 200px;
+	left: -10px;
 	position: fixed;
 	z-index: 999;
 }
 
-@keyframes redanimation {
+showandtell:hover {
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
+}
+
+longdistance {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: longdistanceanimation  100s linear infinite;
+  top: 50px;
+	left: -50px;
+	position: fixed;
+	z-index: 999;
+}
+
+longdistance:hover {
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
+}
+
+maplelovestory {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: maplelovestoryanimation  50s linear infinite;
+  top: 10px;
+	left: -200px;
+	position: fixed;
+	z-index: 999;
+}
+
+lookforamerica {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: lookforamericaanimation  100s linear infinite;
+  top: -500px;
+	left: 500px;
+	position: fixed;
+	z-index: 999;
+}
+
+lookforamerica:hover {
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
+}
+
+letterbox {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: letterboxanimation  70s linear infinite;
+  top: 70px;
+	left: -70px;
+	position: fixed;
+	z-index: 999;
+}
+
+letterbox:hover {
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
+}
+
+goodreads {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: goodreadsanimation  100s linear infinite;
+  top: 80px;
+	left: 160px;
+	position: fixed;
+	z-index: 999;
+}
+
+goodreads:hover {
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
+}
+
+@keyframes archanimation {
   0% {
 
-		transform: translate(-200%,110vh) rotateZ(0deg);opacity: 1;
+		transform: translate(-200%,110vh) rotateZ(0deg);
 	}
 
 	12.5% {
@@ -77,7 +243,7 @@ height: auto;
 	}
 
 	37.5% {
-		transform: translate(-200%,-120%) rotateZ(-40deg);opacity: .5;
+		transform: translate(-200%,-120%) rotateZ(-40deg);
 	}
 
 	50% {
@@ -88,20 +254,20 @@ height: auto;
 		transform: translate(20vw,100vh) rotateZ(20deg);
 	}
 	75% {
-		transform: translate(200%,100vh) rotateZ(20deg);opacity: .25;
+		transform: translate(200%,100vh) rotateZ(20deg);
 	}
 	87.5% {
 		transform: translate(50vw,-200%) scale(1.75) rotateZ(20deg);
 	}
 
 	100% {
-		transform: translate(-200%,110vh) rotateZ(0deg);opacity: 1;
+		transform: translate(-200%,110vh) rotateZ(0deg);
 	}
 }
 
-@keyframes greenanimation {
+@keyframes djanimation {
   0% {
-		transform: translate(200%,100vh) rotateZ(20deg);opacity: .25;
+		transform: translate(-200%,50vh) scale(1.75) rotateZ(-20deg);
 	}
 
 	12.5% {
@@ -114,19 +280,20 @@ height: auto;
 	}
 
 	37.5% {
-		transform: translate(-200%,-120%) rotateZ(-40deg);opacity: .5;
+		transform: translate(-200%,-120%) rotateZ(-40deg);
 	}
 
 	50% {
 
-    transform: translate(-200%,110vh) rotateZ(0deg);opacity: 1;
+    transform: translate(-200%,110vh) rotateZ(0deg);
 	}
 
 	62.5% {
 		transform: translate(20vw,100vh) rotateZ(20deg);
 	}
 	75% {
-    transform: translate(-200%,50vh) scale(1.75) rotateZ(-20deg);
+    transform: translate(200%,100vh) rotateZ(20deg);
+
 
 	}
 	87.5% {
@@ -134,18 +301,18 @@ height: auto;
 	}
 
 	100% {
-		transform: translate(-200%,110vh) rotateZ(0deg);opacity: 1;
+		transform: translate(-200%,110vh) rotateZ(0deg);
 	}
 }
 
-@keyframes blueanimation {
+@keyframes noiseanimation {
   0% {
-    transform: translate(120vw,-120%) rotateZ(20deg);
+    transform: translate(20vw,-120%) rotateZ(20deg);
 
 	}
 
 	12.5% {
-		transform: translate(-200%,110vh) rotateZ(0deg);opacity: 1;
+		transform: translate(50vw,-200%) scale(1.75) rotateZ(20deg);
 	}
 
 	25% {
@@ -153,7 +320,8 @@ height: auto;
 	}
 
 	37.5% {
-		transform: translate(-200%,110vh) rotateZ(0deg);opacity: 1;
+    transform: translate(20vw,100vh) rotateZ(20deg);
+
 	}
 
 	50% {
@@ -162,18 +330,415 @@ height: auto;
 	}
 
 	62.5% {
-		transform: translate(20vw,100vh) rotateZ(20deg);
+		transform: translate(-200%,110vh) rotateZ(0deg);
 	}
 	75% {
-		transform: translate(200%,100vh) rotateZ(20deg);opacity: .25;
+		transform: translate(200%,100vh) rotateZ(20deg);
 	}
 	87.5% {
 		transform: translate(50vw,-200%) scale(1.75) rotateZ(20deg);
 	}
 
 	100% {
-    transform: translate(-200%,-120%) rotateZ(-40deg);opacity: .5;
+    transform: translate(-200%,-120%) rotateZ(-40deg);
+
+}
+}
+
+@keyframes nightnoisesanimation {
+  0% {
+    transform: translate(20vw,-120%) rotateZ(20deg);
+
+	}
+
+	12.5% {
+		transform: translate(50vw,-200%) scale(1.75) rotateZ(20deg);
+	}
+
+	25% {
+		transform: translate(-200%,50vh) scale(1.75) rotateZ(-20deg);
+	}
+
+	37.5% {
+    transform: translate(20vw,100vh) rotateZ(20deg);
+
+	}
+
+	50% {
+    transform: translate(100vw,50vh) rotateZ(0deg);
+
+	}
+
+	62.5% {
+		transform: translate(-200%,110vh) rotateZ(0deg);
+	}
+	75% {
+		transform: translate(200%,100vh) rotateZ(20deg);
+	}
+	87.5% {
+		transform: translate(50vw,-200%) scale(1.75) rotateZ(20deg);
+	}
+
+	100% {
+    transform: translate(-200%,-120%) rotateZ(-40deg);
+}
+}
 
 
+@keyframes babewavesanimation {
+  0% {
+
+		transform: translate(50vw,-200%) scale(1.75) rotateZ(20deg);
+	}
+
+	12.5% {
+    transform: translate(-200%,50vh) scale(1.75) rotateZ(-20deg);
+
+	}
+
+	25% {
+		transform: translate(120vw,-120%) rotateZ(20deg);
+	}
+
+	37.5% {
+		transform: translate(-200%,-120%) rotateZ(-40deg);
+	}
+
+	50% {
+
+    transform: translate(200%,100vh) rotateZ(20deg);
+	}
+
+	62.5% {
+		transform: translate(20vw,100vh) rotateZ(20deg);
+	}
+	75% {
+
+    transform: translate(-200%,110vh) rotateZ(0deg);
+	}
+	87.5% {
+		transform: translate(100vw,50vh) rotateZ(0deg);
+	}
+
+	100% {
+		transform: translate(-200%,110vh) rotateZ(0deg);
+	}
+}
+
+
+@keyframes portraitsanimation {
+  0% {
+    transform: translate(200%,100vh) rotateZ(20deg);
+
+	}
+
+	12.5% {
+		transform: translate(120vw,-120%) rotateZ(20deg);
+	}
+
+	25% {
+		transform: translate(-200%,50vh) scale(1.75) rotateZ(-20deg);
+	}
+
+	37.5% {
+		transform: translate(50vw,-200%) scale(1.75) rotateZ(20deg);
+	}
+
+	50% {
+		transform: translate(100vw,50vh) rotateZ(0deg);
+	}
+
+	62.5% {
+		transform: translate(20vw,100vh) rotateZ(20deg);
+
+	}
+	75% {
+
+    transform: translate(-200%,-120%) rotateZ(-40deg);
+	}
+	87.5% {
+    transform: translate(-200%,110vh) rotateZ(0deg);
+
+	}
+
+	100% {
+		transform: translate(-200%,110vh) rotateZ(0deg);
+	}
+}
+
+
+@keyframes showandtellanimation {
+  0% {
+    transform: translate(-200%,50vh) scale(1.75) rotateZ(-20deg);
+
+	}
+
+	12.5% {
+    transform: translate(50vw,-200%) scale(1.75) rotateZ(20deg);
+
+
+	}
+
+	25% {
+		transform: translate(120vw,-120%) rotateZ(20deg);
+	}
+
+	37.5% {
+		transform: translate(-200%,-120%) rotateZ(-40deg);
+	}
+
+	50% {
+
+    transform: translate(200%,100vh) rotateZ(20deg);
+	}
+
+	62.5% {
+		transform: translate(20vw,100vh) rotateZ(20deg);
+	}
+	75% {
+
+    transform: translate(-200%,110vh) rotateZ(0deg);
+	}
+	87.5% {
+		transform: translate(100vw,50vh) rotateZ(0deg);
+	}
+
+	100% {
+		transform: translate(-200%,110vh) rotateZ(0deg);
+	}
+}
+
+
+@keyframes longdistanceanimation {
+  0% {
+
+		transform: translate(50vw,-200%) scale(.75) rotateZ(20deg);
+	}
+
+	12.5% {
+    transform: translate(-200%,-120%) rotateZ(-40deg);
+
+
+	}
+
+	25% {
+		transform: translate(120vw,-120%) rotateZ(20deg);
+	}
+
+	37.5% {
+		transform: translate(-200%,50vh) scale(1.75) rotateZ(-20deg);
+	}
+
+	50% {
+
+    transform: translate(200%,100vh) rotateZ(20deg);
+	}
+
+	62.5% {
+		transform: translate(20vw,100vh) rotateZ(20deg);
+	}
+	75% {
+
+    transform: translate(-200%,110vh) rotateZ(0deg);
+	}
+	87.5% {
+		transform: translate(100vw,50vh) rotateZ(0deg);
+	}
+
+	100% {
+		transform: translate(-200%,110vh) rotateZ(0deg);
+	}
+}
+
+
+@keyframes maplestoryanimation {
+  0% {
+
+		transform: translate(-200%,110vh) rotateZ(0deg);
+	}
+
+	12.5% {
+		transform: translate(120vw,-120%) rotateZ(20deg);
+	}
+
+	25% {
+		transform: translate(-200%,50vh) scale(1.75) rotateZ(-20deg);
+	}
+
+	37.5% {
+		transform: translate(-200%,-120%) rotateZ(-40deg);
+	}
+
+	50% {
+		transform: translate(100vw,50vh) rotateZ(0deg);
+	}
+
+	62.5% {
+		transform: translate(20vw,100vh) rotateZ(20deg);
+	}
+	75% {
+		transform: translate(200%,100vh) rotateZ(20deg);
+	}
+	87.5% {
+		transform: translate(50vw,-200%) scale(1.75) rotateZ(20deg);
+	}
+
+	100% {
+		transform: translate(-200%,110vh) rotateZ(0deg);
+	}
+}
+
+
+@keyframes lookforamericaanimation {
+  0% {
+
+		transform: translate(-200%,110vh) rotateZ(0deg);
+	}
+
+	12.5% {
+		transform: translate(120vw,-120%) rotateZ(20deg);
+	}
+
+	25% {
+		transform: translate(-200%,50vh) scale(1.75) rotateZ(-20deg);
+	}
+
+	37.5% {
+		transform: translate(-200%,-120%) rotateZ(-40deg);
+	}
+
+	50% {
+		transform: translate(100vw,50vh) rotateZ(0deg);
+	}
+
+	62.5% {
+		transform: translate(20vw,100vh) rotateZ(20deg);
+	}
+	75% {
+		transform: translate(200%,100vh) rotateZ(20deg);
+	}
+	87.5% {
+		transform: translate(50vw,-200%) scale(1.75) rotateZ(20deg);
+	}
+
+	100% {
+		transform: translate(-200%,110vh) rotateZ(0deg);
+	}
+}
+
+
+@keyframes letterboxanimation {
+  0% {
+
+		transform: translate(20vw,-200%) rotateZ(20deg);
+	}
+
+	12.5% {
+    transform: translate(-200%,50vh) scale(1.75) rotateZ(-20deg);
+
+	}
+
+	25% {
+		transform: translate(120vw,-120%) rotateZ(20deg);
+	}
+
+	37.5% {
+		transform: translate(-200%,-120%) rotateZ(-40deg);
+	}
+
+	50% {
+
+    transform: translate(200%,100vh) rotateZ(20deg);
+	}
+
+	62.5% {
+		transform: translate(20vw,100vh) rotateZ(20deg);
+	}
+	75% {
+
+    transform: translate(-200%,110vh) rotateZ(0deg);
+	}
+	87.5% {
+		transform: translate(100vw,50vh) rotateZ(0deg);
+	}
+
+	100% {
+		transform: translate(-200%,110vh) rotateZ(0deg);
+	}
+}
+
+
+@keyframes goodreadsanimation {
+  0% {
+
+		transform: translate(20vw,-200%) rotateZ(30deg);
+	}
+
+	12.5% {
+		transform: translate(-200%,110vh) rotateZ(0deg);
+	}
+
+	25% {
+    transform: translate(20vw,100vh) rotateZ(20deg);
+
+	}
+
+	37.5% {
+		transform: translate(-200%,-120%) rotateZ(-40deg);
+	}
+
+	50% {
+		transform: translate(100vw,50vh) rotateZ(0deg);
+	}
+
+	62.5% {
+		transform: translate(-200%,50vh) scale(1.75) rotateZ(-20deg);
+	}
+	75% {
+		transform: translate(200%,100vh) rotateZ(20deg);
+	}
+	87.5% {
+		transform: translate(50vw,-200%) scale(1.75) rotateZ(20deg);
+	}
+
+	100% {
+		transform: translate(-200%,110vh) rotateZ(0deg);
+	}
+}
+
+@keyframes maplelovestoryanimation {
+  0% {
+
+		transform: translate(-200%,110vh) rotateZ(0deg);
+	}
+
+	12.5% {
+		transform: translate(120vw,-120%) rotateZ(20deg);
+	}
+
+	25% {
+		transform: translate(-200%,50vh) scale(1.75) rotateZ(-20deg);
+	}
+
+	37.5% {
+		transform: translate(-200%,-120%) rotateZ(-40deg);
+	}
+
+	50% {
+		transform: translate(100vw,50vh) rotateZ(0deg);
+	}
+
+	62.5% {
+		transform: translate(20vw,100vh) rotateZ(20deg);
+	}
+	75% {
+		transform: translate(200%,100vh) rotateZ(20deg);
+	}
+	87.5% {
+		transform: translate(50vw,-200%) scale(1.75) rotateZ(20deg);
+	}
+
+	100% {
+		transform: translate(-200%,110vh) rotateZ(0deg);
 	}
 }
