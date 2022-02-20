@@ -20,6 +20,12 @@ header {
 
 }
 
+.normal {
+  max-width: 500px;
+  width: auto;
+
+}
+
 body{
   /* background-color: #bd1b8a; */
   /* font-family: 'Lato'; */
