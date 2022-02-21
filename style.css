@@ -1,5 +1,9 @@
 body {
-        background: white }
+  background-image: url("img/grass.gif");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
 
 section {
 
@@ -20,7 +24,7 @@ img {
 
 help {
   position:absolute;
-  bottom:10px;
+  top:10px;
   right:10px;
         }
 
