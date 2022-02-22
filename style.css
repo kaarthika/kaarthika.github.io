@@ -23,12 +23,112 @@ a:hover {
  background-color: lightblue;
 }
 
+welcome {
+  animation: 10s welcomeanimation linear infinite;
+
+  visibility: hidden;
+}
+
+to {
+  animation: 10s toanimation linear infinite;
+  animation-fill-mode: forwards;
+
+  visibility: hidden;
+}
+
+my {
+  animation: 10s myanimation linear infinite;
+  animation-fill-mode: forwards;
+
+  visibility: hidden;
+}
+
+brain {
+  animation: 10s brainanimation linear infinite;
+  animation-fill-mode: forwards;
+
+  visibility: hidden;
+}
+
+
+@keyframes welcomeanimation {
+  20% {
+    visibility: visible;
+  }
+  30% {
+    visibility: hidden;
+  }
+  60% {
+    visibility: hidden;
+  }
+  80% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+
+@keyframes toanimation {
+  20% {
+    visibility: hidden;
+  }
+  40% {
+    visibility: visible;
+  }
+  50% {
+    visibility: hidden;
+  }
+  80% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+
+@keyframes myanimation {
+  20% {
+    visibility: hidden;
+  }
+  40% {
+    visibility: hidden;
+  }
+  60% {
+    visibility: visible;
+  }
+  70% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+
+@keyframes brainanimation {
+  20% {
+    visibility: hidden;
+  }
+  40% {
+    visibility: hidden;
+  }
+  60% {
+    visibility: hidden;
+  }
+  80% {
+    visibility: visible;
+  }
+  90% {
+    visibility: hidden;
+  }
+}
+
 
 section {
 
         color: black;
         position: absolute;
-        top: 50%;
+        top: 100px;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%) }
