@@ -335,11 +335,11 @@ nation {
 	z-index: 999;
 }
 
-c4e {
+cfe {
   width: 100px;
   height: 100px;
   position: relative;
-  animation: c4eanimation  100s linear infinite;
+  animation: cfeanimation 100s linear infinite;
   top: -80px;
 	left: -160px;
 	position: fixed;
@@ -347,7 +347,7 @@ c4e {
 }
 
 
-@keyframes c4eanimation {
+@keyframes cfeanimation {
   0% {
 
 
